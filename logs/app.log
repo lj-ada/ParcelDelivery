@@ -1916,3 +1916,19 @@ java.io.EOFException: null
 2024-09-28T14:21:21.367+08:00  INFO 2688 --- [DeliveryAPI] [main] c.a.d.DeliveryApiApplicationTests        : Starting DeliveryApiApplicationTests using Java 17.0.12 with PID 2688 (started by Leonard Jason Ada in C:\Users\Leonard Jason Ada\Documents\Job Application Exam\delivery)
 2024-09-28T14:21:21.370+08:00  INFO 2688 --- [DeliveryAPI] [main] c.a.d.DeliveryApiApplicationTests        : No active profile set, falling back to 1 default profile: "default"
 2024-09-28T14:21:22.899+08:00  INFO 2688 --- [DeliveryAPI] [main] c.a.d.DeliveryApiApplicationTests        : Started DeliveryApiApplicationTests in 1.883 seconds (process running for 2.895)
+2024-09-28T14:22:26.546+08:00  INFO 15208 --- [DeliveryAPI] [main] c.api.delivery.DeliveryApiApplication    : Starting DeliveryApiApplication using Java 17.0.12 with PID 15208 (C:\Users\Leonard Jason Ada\Documents\Job Application Exam\delivery\target\classes started by Leonard Jason Ada in C:\Users\Leonard Jason Ada\Documents\Job Application Exam\delivery)
+2024-09-28T14:22:26.548+08:00  INFO 15208 --- [DeliveryAPI] [main] c.api.delivery.DeliveryApiApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-09-28T14:22:27.701+08:00  INFO 15208 --- [DeliveryAPI] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-28T14:22:27.716+08:00  INFO 15208 --- [DeliveryAPI] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-28T14:22:27.717+08:00  INFO 15208 --- [DeliveryAPI] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-28T14:22:27.814+08:00  INFO 15208 --- [DeliveryAPI] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-28T14:22:27.815+08:00  INFO 15208 --- [DeliveryAPI] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1211 ms
+2024-09-28T14:22:28.359+08:00  INFO 15208 --- [DeliveryAPI] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-28T14:22:28.368+08:00  INFO 15208 --- [DeliveryAPI] [main] c.api.delivery.DeliveryApiApplication    : Started DeliveryApiApplication in 2.256 seconds (process running for 2.665)
+2024-09-28T14:22:38.904+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-28T14:22:38.904+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-28T14:22:38.905+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-28T14:22:39.015+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] c.a.d.controller.DeliveryController      : Calculating cost : IN
+2024-09-28T14:22:39.015+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] c.a.d.service.DeliveryCostService        : Calculating delivery cost : IN
+2024-09-28T14:22:39.015+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] c.a.d.service.DeliveryCostService        : Calculating delivery cost base on rules : IN
+2024-09-28T14:22:39.015+08:00  INFO 15208 --- [DeliveryAPI] [http-nio-8080-exec-2] c.a.d.service.DeliveryCostService        : Calculating delivery cost : OUT
